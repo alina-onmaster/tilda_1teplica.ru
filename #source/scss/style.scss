@@ -1,0 +1,977 @@
+/*Хедер*/
+#nav645061576 {
+    & .t821__text.t-descr.t-descr_xxs {
+        & a {
+            transition: 0.3ms;
+
+            &:hover {
+                color: #ff7300;
+            }
+        }
+    }
+
+    & .t821__text {
+        & a:first-child {
+            letter-spacing: 0.03em;
+        }
+    }
+}
+
+#nav645511772 {
+    & .t450__right_descr {
+        & a[href^=tel] {
+            color: white;
+        }
+
+        & a {
+            &>em {
+                font-style: normal;
+                letter-spacing: 0.03em;
+            }
+        }
+    }
+}
+
+/*Меню*/
+#rec648398301 {
+
+    & .t456__imglogo {
+        @media screen and (max-width: 980px) {
+            padding: 0 !important;;
+        }
+    }
+
+    &  .t456__leftwrapper {
+        @media screen and (max-width: 980px) {
+            padding: 15px 20px;
+        }
+    }
+}
+
+#rec661235688 {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+}
+
+/*Главный слайдер*/
+#rec645372625 {
+    & .t-slds__item {
+        overflow: hidden;
+    }
+
+    & .t734__textwrapper.t-align_left {
+        position: relative;
+        z-index: 5;
+        padding-top: 45px;
+    }
+
+    & .t734__title.t-title.t-title_sm {
+        position: relative;
+        display: inline-block;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: -60px;
+            left: -40px;
+            width: calc(100% + 80px);
+            height: calc(100% + 120px);
+            background-color: #fff;
+            filter: blur(40px);
+            z-index: -1;
+        }
+
+        & strong {
+            position: relative;
+            display: inline-block;
+            color: #3B8547;
+
+
+
+            /*&::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: -10px;
+                width: calc(100% + 20px);
+                height: 100%;
+                border-radius: 3px;
+                background-color: #3B8547;
+                z-index: -1;
+            }*/
+        }
+    }
+
+    & .t734__descr.t-descr.t-descr_md {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 0;
+        padding: 0;
+
+        @media screen and (max-width: 960px) {
+            padding: 0 35px;
+        }
+
+        @media screen and (min-width: 960px) and (max-width: 1060px) {
+            padding: 0 45px;
+        }
+    }
+
+    & .t734__button {
+        position: absolute;
+        bottom: -20px;
+        left: 0;
+        margin-top: 0;
+        padding: 0;
+        transform: translateY(100%);
+
+        @media screen and (max-width: 960px) {
+            padding: 0 25px;
+        }
+
+        @media screen and (min-width: 960px) and (max-width: 1060px) {
+            padding: 0 45px;
+        }
+
+        & .t-btn {
+            background: linear-gradient(180deg, #ff7300 0%, #c25600 100%);
+        }
+    }
+}
+
+#rec645508855 {
+    & .t135 {
+        @media screen and (max-width: 640px) {
+            padding-top: 15px!important;
+            padding-bottom: 15px!important;
+        }
+    }
+}
+
+/*Заголовок каталога теплиц с кнопкой*/
+#rec654781887 {
+    & .t-text_lg {
+        text-align: left;
+        font-size: 24px;
+
+        @media screen and (min-width: 900px) {
+            font-size: 42px;
+        }
+    }
+}
+
+/*Каталог теплиц*/
+#rec645582086 {
+    & .t-store__parts-switch-wrapper {
+        @media screen and (max-width: 960px) {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    & .t-store__parts-switch-btn {
+        @media screen and (max-width: 960px) {
+            flex-grow: 1;
+        }
+        padding: 0.5em 1.5em;
+        border: 1px solid #ff7300;
+        border-radius: 10px;
+    }
+
+    & .t-store__parts-switch-btn.t-active {
+        opacity: 1;
+        background-color: #ff7300;
+        color: #ffffff;
+    }
+
+
+
+    & .t-store .t-store__card__wrap_all .t-store__card__textwrapper,
+    & .t-store .t-store__card__wrap_all .t-store__card__prod-controls-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    &  .t-store__card .t-typography__title {
+        @media screen and (min-width: 981px) {
+            padding: 0 49px;
+        }
+    }
+
+    @media screen and (min-width: 481px) {
+        & .t-store .t-store__card.t-align_center .t-store__card__btns-wrapper {
+            padding-left: 10px;
+            padding-right: 10px;
+
+            & a {
+                width: 100%;
+            }
+        }
+    }
+}
+
+/*Каталог*/
+#rec645582086 {
+    & .t-store__card .t-store__card__price,
+    & .t-popup .t-store__prod-popup__price {
+        &::before {
+            content: "от ";
+        }
+    }
+
+    & .t-popup .t-store__prod-popup__price {
+        &::after {
+            content: "*";
+        }
+    }
+}
+
+/*Описание в карточке товара*/
+.t-descr_xxs {
+    font-size: 16px;
+}
+
+/*Фиксированная плашка с акцией*/
+#rec658476442 {
+    & .t654.t654__positionfixed {
+        @media (min-width: 980px) {
+            width: 420px;
+            height: auto;
+            right: 30px;
+            margin-bottom: 30px;
+            left: unset;
+            border-radius: 10px;
+            box-shadow: 0px 10px 50px 0px #0000004d;
+        }
+    }
+
+    & .t-container_flex {
+        align-items: end;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    & .t654__c12collumns .t654__cell-container {
+        @media screen and (max-width: 980px) {
+           padding: 20px 20px 20px 219px!important;
+        }
+        padding: 20px 55px 20px 190px;
+    }
+
+    & .t654__wrapper::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 9px;
+        aspect-ratio: 430 / 302;
+        width: 320px;
+        background-image: url("https://static.tildacdn.com/tild6237-3334-4632-b436-393933633930/Prestizh.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        transform: translateY(-55%) translateX(-50%);
+
+        @media screen and (max-width: 980px) {
+            width: 268px;
+            left: 76px;
+        }
+    }
+
+    & .t654__wrapper::after {
+        content: "";
+        position: absolute;
+        top: 46px;
+        left: 45px;
+        aspect-ratio: 1 / 1;
+        width: 135px;
+        background-image: url("https://static.tildacdn.com/tild3362-6366-4030-b033-313031323763/free-icon-gift-10434.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        transform: translateY(0%) translateX(0%);
+        -webkit-animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+        -moz-animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+        -o-animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+        animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+
+        @media screen and (max-width: 980px) {
+            top: 33px;
+            left: 113px;
+            width: 110px;
+        }
+    }
+
+    & .t654__btn-wrapper {
+        padding-left: 0;
+        width: 100%;
+
+        @media screen and (max-width: 980px) {
+            width: auto;
+        }
+    }
+
+    & .t654__btn {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+@keyframes trambling-animation {
+    0%, 50%, 100% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+    }
+    10%, 30% {
+        transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -o-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+    }
+    20%, 40% {
+        transform: rotate(10deg);
+        -webkit-transform: rotate(10deg);
+        -moz-transform: rotate(10deg);
+        -o-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+    }
+}
+
+/*Несколько простых шагов*/
+#rec536520630 {
+    & .t549__bgimg {
+        background-size: contain;
+    }
+}
+
+/*Акция*/
+#rec648499605 {
+    & .t165__left {
+        position: relative;
+
+        @media (min-width: 641px) {
+            padding-bottom: 20px;
+        }
+    }
+    & .t165__img {
+        @media (min-width: 641px) and (max-width: 960px) {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-32%);
+            width: 241%;
+        }
+
+        @media (min-width: 961px) {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-17%);
+            width: 950px;
+        }
+
+        @media (min-width: 1201px) {
+            transform: translateX(-35%);
+
+        }
+
+
+    }
+
+}
+
+/*Заголовок С нами выгодно*/
+#rec657972509 {
+    @media (min-width: 961px) {
+        position: relative;
+        bottom: -65px;
+    }
+    @media (min-width: 1201px) {
+        bottom: -125px;
+    }
+}
+
+/*Акционный слайдер*/
+#rec657980589 {
+    padding-top: 15px;
+    position: relative;
+
+    @media (min-width: 641px) and (max-width: 960px) {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    @media (min-width: 961px) {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        aspect-ratio: 648 / 395;
+        background-image: url("https://static.tildacdn.com/tild3039-6132-4564-b730-666234623361/2.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        z-index: 10;
+
+        @media (min-width: 641px) {
+            transform: translateX(0);
+        }
+
+        @media (min-width: 961px) {
+            transform: translateX(-65px);
+            max-width: 950px;
+        }
+    }
+
+    & .t801.t801__witharrows {
+        @media (min-width: 961px) {
+            position: relative;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 50%;
+                width: 460px;
+                height: 460px;
+                background-color: #ff7300;
+                transform: translateX(-470px);
+                box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.3019607843);
+                border-radius: 10px;
+            }
+        }
+
+        @media (min-width: 1201px) {
+            &::before {
+                width: 560px;
+                height: 440px;
+                transform: translateX(-580px);
+            }
+        }
+
+    }
+
+    & .t-container {
+        @media (min-width: 641px) and (max-width: 960px) {
+            display: flex;
+            flex-direction: row;
+        }
+
+        @media (min-width: 961px) {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    & .t-col.t-col_6 {
+        @media (min-width: 641px) and (max-width: 960px) {
+            width: 40%;
+            flex-grow: 1;
+            padding-right: 0;
+            padding-left: 45px;
+            height: 450px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+            box-sizing: border-box;
+        }
+
+        @media (min-width: 961px) {
+            position: relative;
+            padding: 20px;
+            height: 460px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+            box-sizing: border-box;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+            }
+        }
+
+        @media (min-width: 1201px) {
+            height: 440px;
+        }
+
+
+    }
+
+    & .t-btn_md {
+        @media (min-width: 641px) {
+            position: relative;
+            z-index: 15;
+            width: 320px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+
+    & .t-col.t-col_6.t801__centeredsection {
+        @media (min-width: 641px) and (max-width: 960px) {
+            width: 38%;
+            flex-grow: unset;
+        }
+
+    }
+
+    & .t-slds__arrow_wrapper-left,
+    & .t-slds__arrow_wrapper-right {
+        @media (min-width: 961px) {
+            width: 30px;
+        }
+    }
+
+    & .t-slds__arrow_wrapper-left {
+        @media (min-width: 641px) and (max-width: 960px) {
+            left: 50%;
+            transform: translateX(-336px);
+        }
+
+        @media (min-width: 961px) and (max-width: 1200px) {
+            left: 50%;
+            transform: translateX(-541px);
+        }
+
+        @media (min-width: 1201px) {
+            left: 50%;
+            transform: translateX(-654px);
+        }
+    }
+
+    & .t-slds__arrow_wrapper-right {
+        @media (min-width: 641px) and (max-width: 960px) {
+            right: unset;
+            left: 50%;
+            transform: translateX(0px);
+        }
+
+        @media (min-width: 961px) and (max-width: 1200px) {
+            right: unset;
+            left: 50%;
+            transform: translateX(30px);
+        }
+
+        @media (min-width: 1201px) {
+            right: unset;
+            left: 50%;
+            transform: translateX(24px);
+        }
+    }
+
+}
+
+#rec668292007 {
+    position: relative;
+    overflow: hidden;
+    background-color: #ff7300;
+    z-index: 1;
+
+    @media (min-width: 961px) {
+        background-color: transparent;
+    }
+
+    &::after {
+        @media (min-width: 961px) {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: calc(100% - 70px);
+            left: 0;
+            bottom: 0;
+            background-color: #ff7300;
+            z-index: -1;
+        }
+
+        @media (min-width: 961px) {
+            height: calc(100% - 135px);
+        }
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        aspect-ratio: 648 / 395;
+        background-image: url("https://static.tildacdn.com/tild3631-6264-4364-b231-613766343631/3.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        max-width: 640px;
+
+        @media (min-width: 961px) {
+            transform: translateX(-65px);
+            max-width: 950px;
+        }
+    }
+
+    & .t801.t801__witharrows {
+        @media (min-width: 961px) {
+            position: relative;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 33px;
+                left: 50%;
+                width: 460px;
+                height: 420px;
+                background-color: #ff7300;
+                transform: translateX(-470px);
+                box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.3019607843);
+                border-radius: 10px;
+            }
+        }
+
+        @media (min-width: 1201px) {
+            &::before {
+                top: 104px;
+                width: 460px;
+                height: 387px;
+                transform: translateX(-580px);
+            }
+        }
+
+    }
+
+    & .t-container {
+        @media (min-width: 961px) {
+            display: flex;
+            align-items: flex-end;
+            overflow: hidden;
+        }
+    }
+
+
+    & .t-col.t-col_5 {
+        @media (min-width: 961px) {
+            position: relative;
+            padding: 50px 20px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+            box-sizing: border-box;
+            height: 468px;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+
+            }
+        }
+
+        @media (min-width: 1201px) {
+            padding: 130px 20px 35px;
+            height: 513px;
+        }
+    }
+
+    & .t801__centeredsection {
+        position: relative;
+    }
+
+    & .t-slds__img {
+        position: relative;
+        bottom: -20px;
+
+        @media (min-width: 961px) {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    }
+
+    & .t801__title {
+        @media (min-width: 961px) {
+            font-size: 26px;
+        }
+    }
+
+    & .t-text {
+        @media (min-width: 961px) {
+            font-size: 16px;
+        }
+    }
+
+}
+
+/*Почему выбирают наши теплицы? Табы*/
+#rec532183371 {
+    @media (min-width: 981px) {
+        & .t397__tab {
+            position: relative;
+            padding-top: 70px;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+            }
+
+            &:nth-of-type(1) {
+                &::before {
+                    width: 69px;
+                    height: 34px;
+                    background-image: url("https://static.tildacdn.com/tild3839-6439-4735-b561-643561386132/zinc--green.png");
+                }
+            }
+
+            &:nth-of-type(2) {
+                &::before {
+                    width: 68px;
+                    height: 33px;
+                    background-image: url("https://static.tildacdn.com/tild3361-3830-4865-a339-323236353139/profile--green.png");
+                }
+            }
+
+            &:nth-of-type(3) {
+                &::before {
+                    width: 48px;
+                    height: 34px;
+                    background-image: url("https://static.tildacdn.com/tild6462-3266-4362-a335-333662623637/polycarbonate--green.png");
+                }
+            }
+
+            &:nth-of-type(4) {
+                &::before {
+                    width: 46px;
+                    height: 43px;
+                    background-image: url("https://static.tildacdn.com/tild3939-6437-4561-b735-613938373631/vents--green.png");
+                }
+            }
+
+            &:nth-of-type(5) {
+                &::before {
+                    width: 58px;
+                    height: 45px;
+                    background-image: url("https://static.tildacdn.com/tild3135-3137-4537-b432-663735366233/foundation--green.png");
+                }
+            }
+
+            &:nth-of-type(6) {
+                &::before {
+                    width: 49px;
+                    height: 29px;
+                    background-image: url("https://static.tildacdn.com/tild3662-3263-4930-b834-353835373539/fastening--green.png");
+                }
+            }
+
+            &_active {
+                &:nth-of-type(1) {
+                    &::before {
+                        background-image: url("https://static.tildacdn.com/tild6337-6432-4764-a362-643431353161/zinc--orange.png");
+                    }
+                }
+
+                &:nth-of-type(2) {
+                    &::before {
+                        background-image: url("https://static.tildacdn.com/tild6433-3061-4366-a337-636334633034/profile--orange.png");
+                    }
+                }
+
+                &:nth-of-type(3) {
+                    &::before {
+                        background-image: url("https://static.tildacdn.com/tild3134-3535-4639-a538-323964303637/polycarbonate--orang.png");
+                    }
+                }
+
+                &:nth-of-type(4) {
+                    &::before {
+                        background-image: url("https://static.tildacdn.com/tild3736-3831-4363-b234-623734663061/vents--orange.png");
+                    }
+                }
+
+                &:nth-of-type(5) {
+                    &::before {
+                        background-image: url("https://static.tildacdn.com/tild3831-3964-4364-b630-616135306466/foundation--orange.png");
+                    }
+                }
+
+                &:nth-of-type(6) {
+                    &::before {
+                        background-image: url("https://static.tildacdn.com/tild6239-6265-4363-a563-626335363966/fastening--orange.png");
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*Почему выбирают наши теплицы? В мобилке фотки*/
+#rec532236737 {
+    & .t396 .tn-atom__tip-img {
+        width: 85px;
+        height: 85px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #c25600;
+    }
+}
+
+/*Заголовок Что говорят наши клиенты*/
+#rec646483672 {
+    @media (min-width: 961px) {
+        position: relative;
+        bottom: -90px;
+    }
+}
+
+/*Кнопки-ссылки на отзывы в Яндекс*/
+#rec660938249 {
+    & .t1058__row {
+        gap: 30px;
+    }
+    & .t1058__btn {
+        flex-grow: 1;
+        width: 100%;
+        max-width: 300px;
+        margin: 0;
+    }
+    & .t1058__link-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        border: 1px solid #ff7300;
+        padding: 5px 10px;
+        border-radius: 10px;
+        transition: 0.3s;
+
+        & .t1058__btn-text {
+            transition: 0.3s;
+        }
+
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            background-color: #ff7300;
+
+
+            & .t1058__btn-text {
+                color: white!important;
+            }
+        }
+    }
+
+    & .t1058__btn-text {
+        font-size: 20px;
+    }
+
+    & .t1058__link {
+        width: 100%;
+    }
+}
+
+/*Фотогалерея*/
+#rec657864058 {
+    @media (min-width: 961px) {
+        & .t764__descr {
+            font-size: 16px;
+            margin-top: 0;
+        }
+
+        & .t-slds {
+            overflow: visible;
+        }
+
+        & .t-slds__thumbsbullet-wrapper {
+            position: relative;
+            width: 940px;
+        }
+    }
+
+    @media (min-width: 1201px) {
+        & .t764__descr {
+            font-size: 18px;
+        }
+
+        & .t-slds__thumbsbullet-wrapper {
+            width: 1170px;
+        }
+    }
+}
+
+/*Не можете определиться с выбором теплицы?*/
+#rec646455719 {
+    @media screen and (max-width: 960px) {
+        & .t-container_flex {
+            display: flex;
+            flex-direction: column;
+        }
+
+        & .t700 .t700__col:first-child {
+            order: 1;
+            margin-bottom: 0;
+        }
+    }
+}
+
+/*Корзина*/
+#rec658555223 {
+    & .t706__cartwin-prodamount {
+        &::after {
+            content: "*";
+        }
+    }
+
+    & .t706__cartwin-prodamount-price {
+        &::before {
+            content: "от ";
+        }
+    }
+}
+
+
+
+
+
